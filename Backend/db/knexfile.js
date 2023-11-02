@@ -6,11 +6,11 @@ const {knexSnakeCaseMappers} = require("objection")
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: ''/*insira aqui o seu banco de dados */,
     connection: {
       database: 'gerenciamento_vendas',
-      user: 'postgres',
-      password: '5873'
+      user: '' /*insira usuario */,
+      password: '' /*insira senha */
     },pool: {
       min: 2,
       max: 10
