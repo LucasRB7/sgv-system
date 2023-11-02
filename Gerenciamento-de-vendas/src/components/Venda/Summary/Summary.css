@@ -1,0 +1,25 @@
+.summary{
+    border: 3px solid #004f6b;
+    border-radius: 5px;
+    background-color: #038BBB;
+    display: grid;
+    grid-template-rows: 20% 30% 30% 15% ;
+    align-items: center;
+    height: 400px;
+    width: 320px;
+    padding: 25px;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.total{
+    font-size: 32px;
+    color: #0afc63;
+    font-weight: 600;
+    text-shadow: #005821 2px 2px 3px;
+}

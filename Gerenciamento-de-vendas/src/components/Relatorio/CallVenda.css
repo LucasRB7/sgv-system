@@ -1,0 +1,9 @@
+.box{
+    border-radius: 5px;
+    background-color: #038BBB;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

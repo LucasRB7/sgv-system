@@ -1,0 +1,59 @@
+.rowMain{
+    background-color: #038BBB;
+    border: 2px solid #004f6b;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 40% 15% 15% 25% 5%; 
+    text-align: center;
+    align-items: center;
+    padding: 20px 40px;  
+    font-weight: 600;
+    border-radius: 5px;
+}
+.rowData{
+    background-color: white;
+    border: 3px solid #004f6b;
+    color: black;
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%; 
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.produto{
+    text-align: left;
+    padding: 0 0 0 25px;
+}
+.info{
+    text-align: right;
+    padding: 0 25px 0 0;
+}
+.remove{
+    background-color: red;
+    border-radius: 50px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+.moreORless{
+    background-color: black;
+    border-radius: 50px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+.qtd{
+    margin: 5px;
+    font-size: 15px;
+}
+.cart{
+    background-color: #038BBB;
+    font-size: 25px;
+    font-weight: 600;
+}
+.cart td{
+    border: 2px solid #004f6b;    
+    border-radius: 5px;
+}
